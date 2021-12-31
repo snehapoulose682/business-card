@@ -1,10 +1,11 @@
-import "./App.css";
-import Header from "./components/Header";
+import React from "react";
+import "./components/ProfileCard.css";
+import Profilecard from "./components/ProfileCard";
 
 function App() {
   return (
     <div>
-      <Header />
+      <Profilecard />
     </div>
   );
 }
